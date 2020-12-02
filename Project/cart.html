@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>EVIL TECH™</title>
+	<link rel = "icon" href="img\eviltech.png" 
+        type = "image/x-icon"> 
+	<link rel="stylesheet" href="styles.css">
+	<link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/c57748b61a.js" crossorigin="anonymous"></script>
+</head>
+	
+<body>
+	<header>
+
+		<nav>
+			<ul class="atc">
+				<li class="atc"><a href="contact.html">Contact Us <i class="fas fa-address-card"></i></a></li>
+				<li class="atc"><a href="cart.html">Order Form <i class="fas fa-cart-plus"></i></a></li>
+			</ul>
+		</nav>
+		</header>
+	<div class="wrapper">
+		<div class ="sidebar">
+		<a href="home.html"><h1><img class="logo" src="img\eviltech.png" 
+		width="50" height="50"> E V I L <span> T E C H</span></h1></a>
+		<br>
+		<br>
+		<br>
+		<ul>
+			<li><a href="cpu.html">CPU's / Processors</a></li>
+			<li><a href="motherboard.html">Motherboards</a></li>
+			<li><a href="cases.html">Computer Cases</a></li>
+			<li><a href="gpu.html">Video Cards</a></li>
+			<li><a href="keyboard.html">Keyboards</a></li>
+			<li><a href="mouse.html">Mouse</a></li>
+			<li><a href="monitor.html">Monitors</a></li>
+			<li><a href="chair.html">Gaming Chairs</a></li>
+			<li><a href="mousepad.html">Mousepads</a></li>
+		</ul>
+		</div>
+		</div>
+
+		<div class="regform"><h1>ORDER <span>FORM</span></h1></div>
+		<div class="main">
+			<form>
+			<div id="name">
+				<h2 class="name">Name</h2>
+				<input class="firstname" type="rext" name="first_name"><br>
+				<label class="firstlabel">First Name</label>
+				<input class="lastname" type="text" name="last_name">
+				<label class ="lastlabel">Last Name</label>
+			</div>	
+
+			<h2 class="name">Address</h2>
+			<input class="address" type="text" name="address">
+			<input class="note" type="text" name="notes">
+			<label class="notelabel">Note To Rider</label>
+
+			<h2 class="name">Phone</h2>
+			<input class="code" type="text" name="area_code">
+			<label class="area-code">Area Code</label>
+			<input class="number" type="text" name="phone">
+			<label class="phone-number">Phone Number</label>
+
+			<h2 class="name">Items</h2>
+			<p><textarea class="orders" type="text" name="message" rows="10" cols="30"></textarea></p>
+
+			<h2 class="name">Delivery</h2>
+			<select class="option" name="delivery">
+			<option disabled="disabled" selected="selected">--Choose Delivery Options--</option>
+			<option>Express Delivery (Next-Day-Delivery)</option>
+			<option>Standard Delivery (3-5 Days)</option>
+			</select>
+
+			<h2 class="payment">Mode of Payment:</h2>
+			<label class="radio">
+				<input class="radio-one" type="radio" checked="checked" name="">
+				<span class="checkmark"></span>
+				Cash-On-Delivery
+			</label>
+			<label class="radio">
+				<input class="radio-two" type="radio" name="">
+				<span class="checkmark"></span>
+				Credit/Debit Card
+			</label>
+			<label class="radio">
+				<input class="radio-three" type="radio" name="">
+				<span class="checkmark"></span>
+				GCash
+			</label>
+
+			<button type="submit">Submit Order Form</button>
+
+			</form>
+		</div>
+</body>
+</html>
